@@ -6,4 +6,4 @@ let PersonSchema = new mongoose.Schema({
     nss: String
 });
 
-module.exports = mongoose.model("Persons", PersonSchema);
+module.exports = mongoose.model("Persons", PersonSchema); //exportamos el modulo de mongoose
